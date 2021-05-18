@@ -28,7 +28,76 @@
   --hover-modal-btn-color: #188ce8;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
   --filter-btn-color: #f5f4fa;
+  --logo-font-family: 'Raleway', 'Arial', 'Helvetica', sans-serif;
+  --main-font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+  --
 }
 
 body {
+  --main-font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
 }
+
+.link {
+  text-decoration: none;
+  font-family: var(--main-font-family);
+}
+
+.list {
+  list-style: none;
+}
+
+/* ------------------------- LOGO ------------------------- */
+
+.logo {
+font-family: var(--logo-font-family);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
+
+.accent-logo-color {
+  color: var(--accent-logo-color);
+}
+
+.main-logo-color {
+  color: var(--main-logo-color);
+}
+
+.alternate-logo-color {
+  color: var(--alternate-logo-color);
+}
+
+/* ------------------------- END LOGO ------------------------- */
+
+/* ------------------------- NAVIGATION ------------------------- */
+
+.nav-list-link, {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--titles-text-color);
+}
+
+.page-header-contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus,
+.page-header-contacts-link:hover,
+.page-header-contacts-link:focus {
+  color: var(--accent-logo-color)
+}
+
+
+/* ------------------------- END NAVIGATION ------------------------- */
+
+/* ------------------------- HERO ------------------------- */
+
+/* ------------------------- END HERO ------------------------- */
