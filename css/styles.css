@@ -20,5 +20,11 @@
  */
 
 :root {
-  --primary-text-color: #000000;
+  --primary-text-color: #212121;
+  --hover-text-color: #2196f3;
+  --hover-btn-color: #188ce8;
+  --alternate-color: #ffffff;
+  --contacts-header-color: #757575;
+  --contacts-footer-color: rgba(255, 255, 255, 0.6);
+  --filter-btn-color: #f5f4fa;
 }
