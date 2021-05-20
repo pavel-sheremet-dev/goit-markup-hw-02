@@ -1,3 +1,4 @@
+/* 6594 символов + 6010 символов + 250 строк.  */
 /* ------------------------- VARIABLES ------------------------- */
 
 :root {
@@ -45,17 +46,14 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color: var(--main-logo-color);
 }
 
 .accent-logo-color {
   color: var(--accent-logo-color);
 }
 
-.main-logo-color {
-  color: var(--main-logo-color);
-}
-
-.alternate-logo-color {
+.logo.alternate-logo-color {
   color: var(--alternate-logo-color);
 }
 
@@ -66,7 +64,7 @@ body {
 .modal-btn {
   font-family: inherit;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 16px
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
@@ -125,19 +123,16 @@ body {
 
 /* ------------------------- HEADER ------------------------- */
 
-.nav-list-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--titles-text-color);
-}
-
+.nav-list-link,
 .page-header-contacts-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.nav-list-link {
+  color: var(--titles-text-color);
 }
 
 .nav-list-link:hover,
@@ -163,9 +158,6 @@ body {
 }
 
 .page-footer-contacts-list-link {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--footer-contacts-color);
 }
 
